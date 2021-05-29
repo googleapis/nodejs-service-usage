@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://www.github.com/googleapis/nodejs-service-usage/compare/v1.0.0...v1.0.1) (2021-05-29)
+
+
+### Bug Fixes
+
+* GoogleAdsError missing using generator version after 1.3.0 ([#9](https://www.github.com/googleapis/nodejs-service-usage/issues/9)) ([2fa7011](https://www.github.com/googleapis/nodejs-service-usage/commit/2fa7011abb318a15cd248b7abeb921540c60d34f))
+
 ## 1.0.0 (2021-05-25)
 
 
