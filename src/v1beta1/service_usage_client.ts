@@ -963,6 +963,11 @@ export class ServiceUsageClient {
       protos.google.api.serviceusage.v1beta1.OperationMetadata
     >
   > {
+    this.warn(
+      'DEP$ServiceUsage-$checkEnableServiceProgress',
+      'checkEnableServiceProgress is deprecated and may be removed in a future version.',
+      'DeprecationWarning'
+    );
     const request = new operationsProtos.google.longrunning.GetOperationRequest(
       {name}
     );
@@ -1125,6 +1130,11 @@ export class ServiceUsageClient {
       protos.google.api.serviceusage.v1beta1.OperationMetadata
     >
   > {
+    this.warn(
+      'DEP$ServiceUsage-$checkDisableServiceProgress',
+      'checkDisableServiceProgress is deprecated and may be removed in a future version.',
+      'DeprecationWarning'
+    );
     const request = new operationsProtos.google.longrunning.GetOperationRequest(
       {name}
     );
@@ -1298,6 +1308,11 @@ export class ServiceUsageClient {
       protos.google.api.serviceusage.v1beta1.OperationMetadata
     >
   > {
+    this.warn(
+      'DEP$ServiceUsage-$checkBatchEnableServicesProgress',
+      'checkBatchEnableServicesProgress is deprecated and may be removed in a future version.',
+      'DeprecationWarning'
+    );
     const request = new operationsProtos.google.longrunning.GetOperationRequest(
       {name}
     );
