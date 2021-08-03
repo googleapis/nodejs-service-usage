@@ -2,7 +2,7 @@
   "name": "service-usage",
   "name_pretty": "Service Usage",
   "product_documentation": "https://cloud.google.com/service-usage/",
-  "client_documentation": "https://cloud.google.com/service-usage/docs/overview",
+  "client_documentation": "https://cloud.google.com/nodejs/docs/reference/service-usage/latest",
   "issue_tracker": "https://www.github.com/googleapis/nodejs-service-usage/issues",
   "release_level": "ga",
   "language": "nodejs",
@@ -12,4 +12,3 @@
   "requires_billing": true,
   "default_version": "v1"
 }
-
