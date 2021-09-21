@@ -564,6 +564,10 @@ export class ServiceUsageClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.getService(request);
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.get_service.js</caption>
+   * region_tag:serviceusage_get_service_sample
+   *
    * @deprecated GetService is deprecated and may be removed in a future version.
    */
   getService(
@@ -669,6 +673,10 @@ export class ServiceUsageClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.getConsumerQuotaMetric(request);
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.get_consumer_quota_metric.js</caption>
+   * region_tag:serviceusage_get_consumer_quota_metric_sample
+   *
    */
   getConsumerQuotaMetric(
     request?: protos.google.api.serviceusage.v1beta1.IGetConsumerQuotaMetricRequest,
@@ -775,6 +783,10 @@ export class ServiceUsageClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.getConsumerQuotaLimit(request);
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.get_consumer_quota_limit.js</caption>
+   * region_tag:serviceusage_get_consumer_quota_limit_sample
+   *
    */
   getConsumerQuotaLimit(
     request?: protos.google.api.serviceusage.v1beta1.IGetConsumerQuotaLimitRequest,
@@ -890,6 +902,10 @@ export class ServiceUsageClient {
    * @example
    * const [operation] = await client.enableService(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.enable_service.js</caption>
+   * region_tag:serviceusage_enable_service_sample
+   *
    * @deprecated EnableService is deprecated and may be removed in a future version.
    */
   enableService(
@@ -959,6 +975,10 @@ export class ServiceUsageClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.enable_service.js</caption>
+   * region_tag:serviceusage_enable_service_sample
+   *
    * @deprecated EnableService is deprecated and may be removed in a future version.
    */
   async checkEnableServiceProgress(
@@ -1057,6 +1077,10 @@ export class ServiceUsageClient {
    * @example
    * const [operation] = await client.disableService(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.disable_service.js</caption>
+   * region_tag:serviceusage_disable_service_sample
+   *
    * @deprecated DisableService is deprecated and may be removed in a future version.
    */
   disableService(
@@ -1126,6 +1150,10 @@ export class ServiceUsageClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.disable_service.js</caption>
+   * region_tag:serviceusage_disable_service_sample
+   *
    * @deprecated DisableService is deprecated and may be removed in a future version.
    */
   async checkDisableServiceProgress(
@@ -1235,6 +1263,10 @@ export class ServiceUsageClient {
    * @example
    * const [operation] = await client.batchEnableServices(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.batch_enable_services.js</caption>
+   * region_tag:serviceusage_batch_enable_services_sample
+   *
    * @deprecated BatchEnableServices is deprecated and may be removed in a future version.
    */
   batchEnableServices(
@@ -1304,6 +1336,10 @@ export class ServiceUsageClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.batch_enable_services.js</caption>
+   * region_tag:serviceusage_batch_enable_services_sample
+   *
    * @deprecated BatchEnableServices is deprecated and may be removed in a future version.
    */
   async checkBatchEnableServicesProgress(
@@ -1408,6 +1444,10 @@ export class ServiceUsageClient {
    * @example
    * const [operation] = await client.createAdminOverride(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.create_admin_override.js</caption>
+   * region_tag:serviceusage_create_admin_override_sample
+   *
    */
   createAdminOverride(
     request?: protos.google.api.serviceusage.v1beta1.ICreateAdminOverrideRequest,
@@ -1471,6 +1511,10 @@ export class ServiceUsageClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.create_admin_override.js</caption>
+   * region_tag:serviceusage_create_admin_override_sample
+   *
    */
   async checkCreateAdminOverrideProgress(
     name: string
@@ -1567,6 +1611,10 @@ export class ServiceUsageClient {
    * @example
    * const [operation] = await client.updateAdminOverride(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.update_admin_override.js</caption>
+   * region_tag:serviceusage_update_admin_override_sample
+   *
    */
   updateAdminOverride(
     request?: protos.google.api.serviceusage.v1beta1.IUpdateAdminOverrideRequest,
@@ -1630,6 +1678,10 @@ export class ServiceUsageClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.update_admin_override.js</caption>
+   * region_tag:serviceusage_update_admin_override_sample
+   *
    */
   async checkUpdateAdminOverrideProgress(
     name: string
@@ -1720,6 +1772,10 @@ export class ServiceUsageClient {
    * @example
    * const [operation] = await client.deleteAdminOverride(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.delete_admin_override.js</caption>
+   * region_tag:serviceusage_delete_admin_override_sample
+   *
    */
   deleteAdminOverride(
     request?: protos.google.api.serviceusage.v1beta1.IDeleteAdminOverrideRequest,
@@ -1783,6 +1839,10 @@ export class ServiceUsageClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.delete_admin_override.js</caption>
+   * region_tag:serviceusage_delete_admin_override_sample
+   *
    */
   async checkDeleteAdminOverrideProgress(
     name: string
@@ -1877,6 +1937,10 @@ export class ServiceUsageClient {
    * @example
    * const [operation] = await client.importAdminOverrides(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.import_admin_overrides.js</caption>
+   * region_tag:serviceusage_import_admin_overrides_sample
+   *
    */
   importAdminOverrides(
     request?: protos.google.api.serviceusage.v1beta1.IImportAdminOverridesRequest,
@@ -1940,6 +2004,10 @@ export class ServiceUsageClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.import_admin_overrides.js</caption>
+   * region_tag:serviceusage_import_admin_overrides_sample
+   *
    */
   async checkImportAdminOverridesProgress(
     name: string
@@ -2037,6 +2105,10 @@ export class ServiceUsageClient {
    * @example
    * const [operation] = await client.createConsumerOverride(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.create_consumer_override.js</caption>
+   * region_tag:serviceusage_create_consumer_override_sample
+   *
    */
   createConsumerOverride(
     request?: protos.google.api.serviceusage.v1beta1.ICreateConsumerOverrideRequest,
@@ -2104,6 +2176,10 @@ export class ServiceUsageClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.create_consumer_override.js</caption>
+   * region_tag:serviceusage_create_consumer_override_sample
+   *
    */
   async checkCreateConsumerOverrideProgress(
     name: string
@@ -2200,6 +2276,10 @@ export class ServiceUsageClient {
    * @example
    * const [operation] = await client.updateConsumerOverride(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.update_consumer_override.js</caption>
+   * region_tag:serviceusage_update_consumer_override_sample
+   *
    */
   updateConsumerOverride(
     request?: protos.google.api.serviceusage.v1beta1.IUpdateConsumerOverrideRequest,
@@ -2267,6 +2347,10 @@ export class ServiceUsageClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.update_consumer_override.js</caption>
+   * region_tag:serviceusage_update_consumer_override_sample
+   *
    */
   async checkUpdateConsumerOverrideProgress(
     name: string
@@ -2357,6 +2441,10 @@ export class ServiceUsageClient {
    * @example
    * const [operation] = await client.deleteConsumerOverride(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.delete_consumer_override.js</caption>
+   * region_tag:serviceusage_delete_consumer_override_sample
+   *
    */
   deleteConsumerOverride(
     request?: protos.google.api.serviceusage.v1beta1.IDeleteConsumerOverrideRequest,
@@ -2424,6 +2512,10 @@ export class ServiceUsageClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.delete_consumer_override.js</caption>
+   * region_tag:serviceusage_delete_consumer_override_sample
+   *
    */
   async checkDeleteConsumerOverrideProgress(
     name: string
@@ -2518,6 +2610,10 @@ export class ServiceUsageClient {
    * @example
    * const [operation] = await client.importConsumerOverrides(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.import_consumer_overrides.js</caption>
+   * region_tag:serviceusage_import_consumer_overrides_sample
+   *
    */
   importConsumerOverrides(
     request?: protos.google.api.serviceusage.v1beta1.IImportConsumerOverridesRequest,
@@ -2585,6 +2681,10 @@ export class ServiceUsageClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.import_consumer_overrides.js</caption>
+   * region_tag:serviceusage_import_consumer_overrides_sample
+   *
    */
   async checkImportConsumerOverridesProgress(
     name: string
@@ -2669,6 +2769,10 @@ export class ServiceUsageClient {
    * @example
    * const [operation] = await client.generateServiceIdentity(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.generate_service_identity.js</caption>
+   * region_tag:serviceusage_generate_service_identity_sample
+   *
    */
   generateServiceIdentity(
     request?: protos.google.api.serviceusage.v1beta1.IGenerateServiceIdentityRequest,
@@ -2736,6 +2840,10 @@ export class ServiceUsageClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.generate_service_identity.js</caption>
+   * region_tag:serviceusage_generate_service_identity_sample
+   *
    */
   async checkGenerateServiceIdentityProgress(
     name: string
@@ -2829,6 +2937,10 @@ export class ServiceUsageClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.list_services.js</caption>
+   * region_tag:serviceusage_list_services_sample
+   *
    * @deprecated ListServices is deprecated and may be removed in a future version.
    */
   listServices(
@@ -2911,6 +3023,10 @@ export class ServiceUsageClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.list_services.js</caption>
+   * region_tag:serviceusage_list_services_sample
+   *
    * @deprecated ListServices is deprecated and may be removed in a future version.
    */
   listServicesStream(
@@ -2925,7 +3041,8 @@ export class ServiceUsageClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listServices'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     this.warn(
       'DEP$ServiceUsage-$ListServices',
@@ -2976,6 +3093,10 @@ export class ServiceUsageClient {
    * for await (const response of iterable) {
    *   // process response
    * }
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.list_services.js</caption>
+   * region_tag:serviceusage_list_services_sample
+   *
    * @deprecated ListServices is deprecated and may be removed in a future version.
    */
   listServicesAsync(
@@ -2991,7 +3112,8 @@ export class ServiceUsageClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listServices'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     this.warn(
       'DEP$ServiceUsage-$ListServices',
@@ -3070,6 +3192,10 @@ export class ServiceUsageClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.list_consumer_quota_metrics.js</caption>
+   * region_tag:serviceusage_list_consumer_quota_metrics_sample
+   *
    */
   listConsumerQuotaMetrics(
     request?: protos.google.api.serviceusage.v1beta1.IListConsumerQuotaMetricsRequest,
@@ -3148,6 +3274,10 @@ export class ServiceUsageClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.list_consumer_quota_metrics.js</caption>
+   * region_tag:serviceusage_list_consumer_quota_metrics_sample
+   *
    */
   listConsumerQuotaMetricsStream(
     request?: protos.google.api.serviceusage.v1beta1.IListConsumerQuotaMetricsRequest,
@@ -3161,7 +3291,8 @@ export class ServiceUsageClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listConsumerQuotaMetrics'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listConsumerQuotaMetrics.createStream(
       this.innerApiCalls.listConsumerQuotaMetrics as gax.GaxCall,
@@ -3205,6 +3336,10 @@ export class ServiceUsageClient {
    * for await (const response of iterable) {
    *   // process response
    * }
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.list_consumer_quota_metrics.js</caption>
+   * region_tag:serviceusage_list_consumer_quota_metrics_sample
+   *
    */
   listConsumerQuotaMetricsAsync(
     request?: protos.google.api.serviceusage.v1beta1.IListConsumerQuotaMetricsRequest,
@@ -3219,7 +3354,8 @@ export class ServiceUsageClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listConsumerQuotaMetrics'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listConsumerQuotaMetrics.asyncIterate(
       this.innerApiCalls['listConsumerQuotaMetrics'] as GaxCall,
@@ -3286,6 +3422,10 @@ export class ServiceUsageClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.list_admin_overrides.js</caption>
+   * region_tag:serviceusage_list_admin_overrides_sample
+   *
    */
   listAdminOverrides(
     request?: protos.google.api.serviceusage.v1beta1.IListAdminOverridesRequest,
@@ -3357,6 +3497,10 @@ export class ServiceUsageClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.list_admin_overrides.js</caption>
+   * region_tag:serviceusage_list_admin_overrides_sample
+   *
    */
   listAdminOverridesStream(
     request?: protos.google.api.serviceusage.v1beta1.IListAdminOverridesRequest,
@@ -3370,7 +3514,8 @@ export class ServiceUsageClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listAdminOverrides'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listAdminOverrides.createStream(
       this.innerApiCalls.listAdminOverrides as gax.GaxCall,
@@ -3411,6 +3556,10 @@ export class ServiceUsageClient {
    * for await (const response of iterable) {
    *   // process response
    * }
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.list_admin_overrides.js</caption>
+   * region_tag:serviceusage_list_admin_overrides_sample
+   *
    */
   listAdminOverridesAsync(
     request?: protos.google.api.serviceusage.v1beta1.IListAdminOverridesRequest,
@@ -3425,7 +3574,8 @@ export class ServiceUsageClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listAdminOverrides'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listAdminOverrides.asyncIterate(
       this.innerApiCalls['listAdminOverrides'] as GaxCall,
@@ -3492,6 +3642,10 @@ export class ServiceUsageClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.list_consumer_overrides.js</caption>
+   * region_tag:serviceusage_list_consumer_overrides_sample
+   *
    */
   listConsumerOverrides(
     request?: protos.google.api.serviceusage.v1beta1.IListConsumerOverridesRequest,
@@ -3563,6 +3717,10 @@ export class ServiceUsageClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.list_consumer_overrides.js</caption>
+   * region_tag:serviceusage_list_consumer_overrides_sample
+   *
    */
   listConsumerOverridesStream(
     request?: protos.google.api.serviceusage.v1beta1.IListConsumerOverridesRequest,
@@ -3576,7 +3734,8 @@ export class ServiceUsageClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listConsumerOverrides'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listConsumerOverrides.createStream(
       this.innerApiCalls.listConsumerOverrides as gax.GaxCall,
@@ -3617,6 +3776,10 @@ export class ServiceUsageClient {
    * for await (const response of iterable) {
    *   // process response
    * }
+   *
+   * @example <caption>include:samples/generated/v1beta1/service_usage.list_consumer_overrides.js</caption>
+   * region_tag:serviceusage_list_consumer_overrides_sample
+   *
    */
   listConsumerOverridesAsync(
     request?: protos.google.api.serviceusage.v1beta1.IListConsumerOverridesRequest,
@@ -3631,7 +3794,8 @@ export class ServiceUsageClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listConsumerOverrides'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listConsumerOverrides.asyncIterate(
       this.innerApiCalls['listConsumerOverrides'] as GaxCall,
